@@ -1,0 +1,29 @@
+.top {
+	background: rgb(51, 102, 153);
+	height:40%;
+}
+
+.bottom {
+	background-color: white;
+}
+
+.phones{
+float:left;
+
+
+}
+.rightBlock{
+}
+footer{
+	clear:both;
+}
+
+
+
+.infoLinks {
+	display:inline;
+}
+#copyTag{
+	color:grey;
+	display:inline;
+}
