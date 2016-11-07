@@ -57,9 +57,10 @@ background:white;
 text-align: left;
 border:2px black solid;
 border-radius:5px;
-margin
-padding: 0px 20px ;
-float:right;
+margin-left:35px;
+padding: 0px 20px;
+
+float:left;
 }
 /*capture and share...*/
 h2{
@@ -90,6 +91,7 @@ a {
 }
 .appleGoogle{
 	text-align:center;
+	margin-bottom:10px;
 }
 #iphone{
 	width:169px;
