@@ -1,36 +1,43 @@
-body{
-
+/*division class to control full page*/
+.container {
 }
+/*blue top section*/
 .top {
 	background: rgb(51, 102, 153);
 	height:40%;
 }
-
+/*white bottom section*/
 .bottom {
 	background-color: white;
+	height: 60%;
 }
-
+/*main content section*/
 .main{
 height: 318px;
+position:absolute;
+top:10%;
 font-family: arial;
 }
-
+/*class to control main phone image*/
 .phones{
 float:left;
 position:relative;
 margin:auto 0;
 }
+
+/*class for control of right main info block*/
 .rightBlock{
 width: min;
 height: 512px;
 margin-bottom:30%;
 }
-.banner{
+/*class to control Instagram banner*/
+#banner{
 display:inline;
 padding-top:10px;
 padding-left:35px;
 }
-
+/*id to style log in button*/
 #logIn{
 display: inline;
 position: absolute;
@@ -39,34 +46,38 @@ background: rgb(51, 102, 153);
 border-radius: 5px;
 color:rgb(236, 242, 249);
 }
-
+/*id to manipulate house image on log in button*/
 #house{
 	padding-top:2px;
 }
-
+/*division class to style white information block*/
 .whitebox {
 width:60%;
+background:white;
 text-align: left;
 border:2px black solid;
 border-radius:5px;
 margin
-padding: 0px 40px ;
+padding: 0px 20px ;
 float:right;
 }
-
+/*capture and share...*/
 h2{
 	color:rgb(51, 102, 153);
+	font-family: Arial;
 	font-style: bold;
 	padding:30px;
 	margin-bottom:0;
 }
+/*paragraph text: Instagram is a fast...*/
 h3{
+	font-family: Arial;
 	font-size: 14px;
 	padding:30px;
 	margin-top:0;
 
 }
-
+/*holds */
 footer{
 	clear:both;
 	font-family:arial;
@@ -74,6 +85,7 @@ footer{
 	font-size:10px;
 }
 a {
+	font-family:Arial;
 	color:rgb(51, 102, 153);
 }
 .appleGoogle{
