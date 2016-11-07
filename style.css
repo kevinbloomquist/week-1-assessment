@@ -12,6 +12,7 @@ body{
 
 .main{
 height: 318px;
+font-family: arial;
 }
 
 .phones{
@@ -36,7 +37,7 @@ position: absolute;
 margin: 30px 0 0 60px;
 background: rgb(51, 102, 153);
 border-radius: 5px;
-color:gray;
+color:rgb(236, 242, 249);
 }
 
 #house{
@@ -53,22 +54,24 @@ padding: 0px 40px ;
 float:right;
 }
 
-h1{
+h2{
 	color:rgb(51, 102, 153);
 	font-style: bold;
+	padding:30px;
+	margin-bottom:0;
 }
 h3{
-	color:gray;
 	font-size: 14px;
+	padding:30px;
+	margin-top:0;
 
 }
- span{
- 	font-style: bold;
- }
 
 footer{
 	clear:both;
+	font-family:arial;
 	text-align:center;
+	font-size:10px;
 }
 a {
 	color:rgb(51, 102, 153);
