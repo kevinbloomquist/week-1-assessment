@@ -7,15 +7,56 @@
 	background-color: white;
 }
 
+.main{
+
+}
+
 .phones{
 float:left;
-
-
+position:relative;
+margin:auto 0;
 }
 .rightBlock{
+width: min;
+height: 152px;
 }
+.banner{
+display:inline;
+padding-left:10px
+}
+
+#logIn{
+display: inline;
+position: absolute;
+background: rgb(51, 102, 153);
+color:gray;
+}
+
+.whitebox {
+width:50%;
+text-align: center;
+border:2px black solid;
+float:right;
+}
+
+h1{
+	color:rgb(51, 102, 153);
+	font-style: bold;
+}
+h3{
+	color:gray;
+
+}
+ span{
+ 	font-style: bold;
+ }
+
 footer{
 	clear:both;
+	text-align:center;
+}
+a {
+	color:rgb(51, 102, 153);
 }
 
 
