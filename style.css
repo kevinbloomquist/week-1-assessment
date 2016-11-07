@@ -1,3 +1,6 @@
+body{
+
+}
 .top {
 	background: rgb(51, 102, 153);
 	height:40%;
@@ -8,7 +11,7 @@
 }
 
 .main{
-
+height: 318px;
 }
 
 .phones{
@@ -18,24 +21,35 @@ margin:auto 0;
 }
 .rightBlock{
 width: min;
-height: 152px;
+height: 512px;
+margin-bottom:30%;
 }
 .banner{
 display:inline;
-padding-left:10px
+padding-top:10px;
+padding-left:35px;
 }
 
 #logIn{
 display: inline;
 position: absolute;
+margin: 30px 0 0 60px;
 background: rgb(51, 102, 153);
+border-radius: 5px;
 color:gray;
 }
 
+#house{
+	padding-top:2px;
+}
+
 .whitebox {
-width:50%;
-text-align: center;
+width:60%;
+text-align: left;
 border:2px black solid;
+border-radius:5px;
+margin
+padding: 0px 40px ;
 float:right;
 }
 
@@ -45,6 +59,7 @@ h1{
 }
 h3{
 	color:gray;
+	font-size: 14px;
 
 }
  span{
@@ -57,6 +72,21 @@ footer{
 }
 a {
 	color:rgb(51, 102, 153);
+}
+.appleGoogle{
+	text-align:center;
+}
+#iphone{
+	width:169px;
+	height:56px;
+	border-radius: 5px;
+	background-image: url("images/badge-iphone.png")
+}
+#android {
+	width:158px;
+	height:56px;
+	border-radius: 5px;
+	background-image: url("images/badge-android.png")
 }
 
 
