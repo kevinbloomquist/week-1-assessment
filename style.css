@@ -84,20 +84,24 @@ footer{
 	text-align:center;
 	font-size:10px;
 }
+/*anchor tags*/
 a {
 	font-family:Arial;
 	color:rgb(51, 102, 153);
 }
+/*class to grab both store buttons as a unit*/
 .appleGoogle{
 	text-align:center;
 	margin-bottom:10px;
 }
+/*itunes store button*/
 #iphone{
 	width:169px;
 	height:56px;
 	border-radius: 5px;
 	background-image: url("images/badge-iphone.png")
 }
+/*google play button*/
 #android {
 	width:158px;
 	height:56px;
@@ -105,11 +109,11 @@ a {
 	background-image: url("images/badge-android.png")
 }
 
-
-
+/*footer links*/
 .infoLinks {
 	display:inline;
 }
+/*copyright tag*/
 #copyTag{
 	color:grey;
 	display:inline;
